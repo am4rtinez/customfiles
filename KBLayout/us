@@ -126,6 +126,8 @@ xkb_symbols "intl" {
     key <AC10> { [ semicolon,      colon,     paragraph,           degree ] };
     key <AC11> { [dead_acute, dead_diaeresis, apostrophe,        quotedbl ] };
     key <AC12> { [	  at, numbersign,	     at,       numbersign ] };
+
+    key <AB00> { [ backslash,        bar,       notsign,        brokenbar ] };
     key <AB01> { [	   z,          Z,            ae,               AE ] };
     key <AB02> { [	   x,          X,             x,                X ] };
     key <AB03> { [	   c,          C,     copyright,             cent ] };
@@ -136,7 +138,7 @@ xkb_symbols "intl" {
     key <AB08> { [     comma,       less,      ccedilla,         Ccedilla ] };
     key <AB09> { [    period,    greater, dead_abovedot,       dead_caron ] };
     key <AB10> { [     slash,   question,  questiondown,        dead_hook ] };
-    key <BKSL> { [ backslash,        bar,       notsign,        brokenbar ] };
+    key <BKSL> { [    at,   numbersign,       notsign,        brokenbar ] };
 
     key <LSGT> { [ backslash,   bar,            backslash,      bar ] };
 
