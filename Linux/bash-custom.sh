@@ -313,6 +313,14 @@ bash_prompt() {
 		PROMT_FORMAT=$WHITE_BOLD
 	fi
 	
+	## CONFIGURATION: EVA01
+	if [ "$HOSTNAME" = piserver ]; then
+		FONT_COLOR_1=$L_GREEN; BACKGROUND_1=$BLACK; TEXTEFFECT_1=$BOLD
+		FONT_COLOR_2=$GREEN; BACKGROUND_2=$MAGENTA; TEXTEFFECT_2=$BOLD
+		FONT_COLOR_3=$D_GRAY; BACKGROUND_3=$L_YELLOW; TEXTEFFECT_3=$BOLD
+		PROMT_FORMAT=$WHITE_BOLD
+	fi
+
 	############################################################################
 	## TEXT FORMATING                                                         ##
 	## Generate the text formating according to configuration                 ##
